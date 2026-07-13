@@ -1,0 +1,51 @@
+/* Box model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base body styles */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Responsive media */
+img
+ {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typography consistency */
+input,
+button
+ {
+    font: inherit;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Buttons */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
